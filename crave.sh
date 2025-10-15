@@ -1,4 +1,4 @@
-
+# repo init -u https://github.com/LineageOS/android.git -b lineage-23.0 --git-lfs
 repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 16 -g default,-mips,-darwin,-notdefault
 # repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
 /opt/crave/resync.sh
