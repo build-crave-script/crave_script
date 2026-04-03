@@ -5,7 +5,7 @@ repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/man
 git clone https://github.com/Infinity-X-Devices/android_device_xiaomi_mojito.git -b 16.0 device/xiaomi/mojito
 git clone https://github.com/Infinity-X-Devices/device_xiaomi_sm6150-common.git -b 16.0 device/xiaomi/sm6150-common
 git clone https://github.com/Infinity-X-Devices/kernel_xiaomi_mojito --depth 1 -b inline-rorn kernel/xiaomi/mojito
-git clone https://gitlab.com/mojito22/android_vendor_xiaomi_mojito.git -b qpr1.0 vendor/xiaomi/mojito
+git clone https://gitlab.com/mojito22/android_vendor_xiaomi_mojito.git -b qpr vendor/xiaomi/mojito
 git clone https://gitlab.com/mojito22/android_vendor_xiaomi_sm6150-common.git -b 16.0 vendor/xiaomi/sm6150-common
 git clone https://github.com/BlissRoms-Devices/android_hardware_xiaomi.git --depth 1 -b mojito-rom hardware/xiaomi
 . build/envsetup.sh
